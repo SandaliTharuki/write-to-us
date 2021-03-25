@@ -57,7 +57,7 @@ class Register extends Component{
             <h1>Register Here!</h1>  
             <label>First Name: </label><input type="text" value={this.state.firstName} onChange={this.firstHandler} /><br />
             <label>Last Name: </label><input type="text" value={this.state.lastName} onChange={this.secondHandler} /><br />
-            <label>Email Address: </label><input type="email" value={this.state.email} onChange={this.thirdHandler} /><br />
+            <label>Email: </label><input type="email" value={this.state.email} onChange={this.thirdHandler} /><br />
             <label>Password: </label><input type="password" value={this.state.password} onChange={this.passwordHandler} /><br />
             
             <hr></hr>
