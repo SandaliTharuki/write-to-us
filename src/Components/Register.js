@@ -54,7 +54,7 @@ class Register extends Component{
         return (
           <div>
           <form onSubmit={this.handleSubmit}>
-            <h1>Register Here!</h1>  
+            <h1>Register Here!!!</h1>  
             <label>First Name: </label><input type="text" value={this.state.firstName} onChange={this.firstHandler} /><br />
             <label>Last Name: </label><input type="text" value={this.state.lastName} onChange={this.secondHandler} /><br />
             <label>Email: </label><input type="email" value={this.state.email} onChange={this.thirdHandler} /><br />
