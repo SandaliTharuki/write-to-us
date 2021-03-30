@@ -59,7 +59,7 @@ class Register extends Component{
             <label>Last Name: </label><input type="text" value={this.state.lastName} onChange={this.secondHandler} /><br />
             <label>Email: </label><input type="email" value={this.state.email} onChange={this.thirdHandler} /><br />
             <label>Password: </label><input type="password" value={this.state.password} onChange={this.passwordHandler} /><br />
-            
+            <hr></hr>
             <hr></hr>
             <input type="submit" value="submit" />
           </form>
