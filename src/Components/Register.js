@@ -49,6 +49,14 @@ class Register extends Component{
         event.preventDefault();
       }  
 
+    cancelCourse = () => {
+      this.setState({
+        firstName: "",
+        lastName: "",
+        email: "",
+        password: "",
+      })
+    }
 
       render() {
         return (
@@ -61,7 +69,8 @@ class Register extends Component{
             <label>Password: </label><input type="password" value={this.state.password} onChange={this.passwordHandler} /><br />
             
             <hr></hr>
-            <input type="submit" value="submit" />
+            <input type="submit" value="Register" />
+            <input type="cancel" value="Cancel" />
           </form>
           </div>  
         );
