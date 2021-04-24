@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
+// import Card from '@material-ui/core/Card'
 import './CSS/Register.css'
+import Card from './UIElements/Card'
 
 class Register extends Component{
     constructor(props){
@@ -53,16 +55,18 @@ class Register extends Component{
       render() {
         return (
           <div>
-          <form onSubmit={this.handleSubmit}>
+            <Card className="item_content">
+          <form onSubmit={this.handleSubmit} className="register-form">
             <h1>Register Here</h1>  
-            <label><h4>First Name:- </h4></label><input type="text" value={this.state.firstName} onChange={this.firstHandler} /><br />
-            <label><h4>Last Name:- </h4></label><input type="text" value={this.state.lastName} onChange={this.secondHandler} /><br />
-            <label>Email:- </label><input type="email" value={this.state.email} onChange={this.thirdHandler} /><br />
-            <label>Password:- </label><input type="password" value={this.state.password} onChange={this.passwordHandler} /><br />
+            <h4><label>First Name </label><input type="text" value={this.state.firstName} onChange={this.firstHandler} /></h4>
+            <h4><label>Last Name </label><input type="text" value={this.state.lastName} onChange={this.secondHandler} /></h4>
+            <h4><label>Email </label><input type="email" value={this.state.email} onChange={this.thirdHandler} /></h4>
+            <h4><label>Password </label><input type="password" value={this.state.password} onChange={this.passwordHandler} /></h4>
             <hr></hr>
             <hr></hr>
             <input type="submit" value="submit" />
           </form>
+          </Card>
           </div>  
         );
       }

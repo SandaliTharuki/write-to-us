@@ -6,6 +6,7 @@ body{
     font-size: 30px;
     font-weight: bold;
     font-family:'Gill Sans';
+    text-align: center;
   }
   
   input[type=text] {
@@ -72,7 +73,7 @@ body{
   }
   
   
-  .container{
+  /* .container{
     background-color: antiquewhite;
     border-style: hidden;
     border-radius: 15px;
@@ -82,7 +83,7 @@ body{
     font-size: large; 
    
     
-  }
+  } */
   @media screen and (max-width:900px){
   
       .main-contianer{
@@ -94,5 +95,17 @@ body{
       }
     
     }
+
+  .item_content{
+    width: 35rem;
+    height: 45erm;
+    /* margin-left: auto;
+    margin-left: auto; */
+    background-color: bisque;
+    padding: 10px;
+    position: absolute;
+  }  
   
-  
+  .register-form {
+   text-align: start;
+  }
