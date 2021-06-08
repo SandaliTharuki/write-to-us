@@ -4,7 +4,7 @@ body{
   }
   h1{
     font-size: 40px;
-    font-weight: bolder;
+    font-weight: none;
     font-family:'Gill Sans';
     text-align: center;
   }
