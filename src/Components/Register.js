@@ -4,55 +4,6 @@ import './CSS/Register.css'
 import Card from './UIElements/Card'
 import Axios from 'axios'
 
-// class Register extends Component{
-//     constructor(props){
-//         super(props)
-
-//         this.state = {
-//             firstName: "",
-//             LastName: "",
-//             email: "",
-//             password: "",
-            
-//         };
-//         this.handleSubmit = this.handleSubmit.bind(this);
-//     }
-
-//     firstHandler = (event) => {
-//         this.setState({
-//             firstName: event.target.value
-//           });
-//         }
-//     secondHandler = (event) => {
-//         this.setState({
-//             lastName: event.target.value
-//             });   
-//         }
-//     thirdHandler = (event) => {
-//         this.setState({
-//             email: event.target.value
-//                 });
-//         }
-//     passwordHandler = (event) => {
-//         this.setState({
-//             password: event.target.value
-//                     });            
-//       } 
-
-//     handleSubmit(event) {
-//         // alert('${this.state.firstName} ${this.state.lastName} Registered successfully')
-//         alert(`${this.state.firstName} ${this.state.lastName}  Registered Successfully !!!!`)
-//         console.log(this.state);
-//         this.setState({
-//             firstName: "",
-//             lastName: "",
-//             email: "",
-//             password: "",
-//         })
-//         event.preventDefault();
-//       }  
-
-
         function App(){
           const {firstnameReg, setFirstnameReg} = useState('')
           const {lastnameReg, setLastnameReg} = useState('')
