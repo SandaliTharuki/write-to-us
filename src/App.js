@@ -1,13 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import Register from './Components/Register';
+import React from "react";
+import Form from "./Components/Form";
+import "./App.css";
+import SignUpForm from "./Components/SignUpForm";
 
-function App() {
-  return (
-    <div className="App">
-      <Register/>
-    </div>
-  );
-}
 
+const App = () => {
+return(
+<div>
+  {/* <Form/> */}
+  <SignUpForm/>
+</div>
+);
+};
 export default App;
